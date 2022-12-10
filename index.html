@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        function getAlert(text) {
+            alert(text)
+        }
+        getAlert("できた");
+
+
+        var num = 1000;
+        function zeikomi(num) {
+            return "税込み" + num * 1.10 + "円です";
+        };
+        console.log(zeikomi(num));
+
+
+
+    //     スコープとは...変数・定数の有効範囲
+    //     function外で決めた変数定数はfunction内で使うことができるが、function内で決めた変数定数はそのfunction以外で使用することができない。
+    //     またconst（定数）は基本中の値を変更できないが、function内で代入した定数はfunction内では再代入可能
+    // </script>
+</body>
+</html>
